@@ -1,12 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ebddc0;
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+
+}
+
 header{
-    border: 1px red solid
+    border: 1px red solid;
+
 }
 
 main{
-    border: 1px green solid
+    border: 1px green solid;
+
 }
 
 
 footer{
-    border: 1px blue solid
+    border: 1px blue solid;
+
+}
+
+
+nav{
+    border: 1px orange solid;
+    display: inline-block;
+    width: 94px;
+    vertical-align: top;
+}
+
+section{
+    border: 1px yellowgreen solid;
+    display: inline-block;
+    width: 500px;
 }
